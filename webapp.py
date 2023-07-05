@@ -78,7 +78,7 @@ def get_victim_data(victim_type):
 st.title("New York City Vehicle Collision Analysis")
 st.markdown('---')
 st.markdown('This web application is built to analyze motor vehicle collisions in NYC using the [New York City Vehicle Collision](%s) data set.' % dataset_link)
-st.image("https://towardsdatascience.com/analysis-of-new-york-city-motor-vehicles-collisions-927da110dfc7")
+st.image("https://miro.medium.com/v2/resize:fill:1200:675/g:fp:0.55:0.7/0*mC7mXxomdLjIOutV")
 st.sidebar.title('Analyzing the Dataset')
 category = st.sidebar.radio("Select category to view", ("Raw Data", "Visualizing with Maps", "Visualizing with charts", "Interactive Data Table", "About Me" ))
 
