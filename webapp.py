@@ -6,7 +6,7 @@ import numpy as np
 import pydeck as pdk
 import plotly.express as px
 
-DATA_URL = ("https://github.com/Abishek-Suresh/New-York-City-Vehicle-Collision-Analysis/blob/main/Motor_Vehicle_Collisions_-_Crashes.csv")
+DATA_URL = ("Motor_Vehicle_Collisions_-_Crashes.csv")
 st.set_page_config(page_title='NY City Vehicle Collision Analysis')
 
 dataset_link = "https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95"
